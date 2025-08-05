@@ -1,0 +1,6 @@
+emp_id, name    , email        , phonenumber, dept_id
+     1, JohnDoe , abc@mail.com ,     2123433,    0001
+     2, Joe     , pqr@gmail.com,    23253623,    0002
+     3, Tyler   , uvw@mail.com ,    26384384,    0003
+     4, JohnChoe, klm@gmail.com,    24823988,    0004
+     5, JohnBoe , mnm@mail.com ,    23965181,    0005

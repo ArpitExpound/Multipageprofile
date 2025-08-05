@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaHome, FaUser, FaCode, FaEnvelope, FaUserCircle } from 'react-icons/fa';
+import { useAuth } from '../context/AuthContext';
 
 const Navbar = () => {
   const location = useLocation();
   const [showDropdown, setShowDropdown] = useState(false);
   const navigate = useNavigate();
+  const { logout } = useAuth();
 
   const handleLogout = () => {
     setShowDropdown(false);
+    logout(); // ❗ Remove auth
     navigate('/login');
   };
 
@@ -48,6 +51,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

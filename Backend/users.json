@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Arpit Tripathi",
+    "email": "arptripathi15@gmail.com",
+    "password": "Arpit@1506",
+    "phonenumber": "3274264872",
+    "resetToken": "abbf675d3f2a87a7dab56c6c520d3713f4313636626beb8d003900b193cabe0b",
+    "tokenExpiry": 1754396068695
+  }
+]
